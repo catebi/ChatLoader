@@ -26,6 +26,7 @@ pip install -r requirements.txt
 
 ## Usage
 ```bash
+source chatloaderenv/bin/activate
 python dump_telegram_history.py --chat <CHAT_ID_OR_USERNAME> [options]
 ```
 
