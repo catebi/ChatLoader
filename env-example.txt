@@ -1,0 +1,11 @@
+# Example environment variables for dump_telegram_history
+
+# Telegram API credentials (obtain from https://my.telegram.org)
+API_ID=123456
+API_HASH=abcdef1234567890abcdef1234567890
+
+# Optional: session file name (default is "tg_history")
+TG_SESSION=tg_history
+
+# Optional: bot token for bot login instead of user session
+BOT_TOKEN=123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11
