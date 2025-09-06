@@ -50,10 +50,10 @@ python dump_telegram_history.py --chat <CHAT_ID_OR_USERNAME> [options]
 
 ## Example
 ```bash
-python dump_telegram_history.py
---chat "@mychannel"
---json "history.jsonl"
---media-dir "media"
+python dump_telegram_history.py \
+--chat "@mychannel" \
+--json "history.jsonl" \
+--media-dir "media" \
 --batch-size 1000
 ```
 
