@@ -19,6 +19,8 @@ Optionally downloads attached media and supports batching, retry logic, and rate
 ```bash
 git clone https://github.com/yourname/ChatLoader.git
 cd ChatLoader
+python -m env chatloaderenv
+source chatloaderenv/bin/activate
 pip install -r requirements.txt
 ```
 
